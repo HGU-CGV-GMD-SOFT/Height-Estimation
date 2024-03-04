@@ -56,6 +56,7 @@ def norm(point1, point2):
     norm = math.sqrt(xdiff*xdiff + ydiff*ydiff)
     return norm
 
+
 print ("-------------------------INSTRUCTIONS----------------------------")
 print ("Draw 8 line segments, holding mouse while drawing")
 print ("First two for xVanish")
