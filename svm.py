@@ -56,16 +56,6 @@ def norm(point1, point2):
     norm = math.sqrt(xdiff*xdiff + ydiff*ydiff)
     return norm
 
-print ("-------------------------INSTRUCTIONS----------------------------")
-print ("Draw 8 line segments, holding mouse while drawing")
-print ("First two for xVanish")
-print ("Next two for yVanish")
-print ("Next two for objects whose lengths are to be compared")
-print ("First draw for the shorter object in the image plane starting from bottom")
-print ("Then for the other object again starting from bottom")
-print ("Finally two for zVanish")
-print ("-----------------------------END---------------------------------")
-
 count = 0
 while iter < 9:
     img = cv2.imread('input3.jpg', 1)
